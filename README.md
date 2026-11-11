@@ -4,6 +4,8 @@
 
 ActionScript 3 source for Learn to Fly Idle, version 1.1.103, from the Flash project last saved in 2018. Most of the game code is in separate ActionScript classes. Frame scripts on the main timeline and in library movie clips handle startup and parts of the interface and animation.
 
+This is an edited snapshot of the Flash source. We removed platform integrations and cleaned up the scripts that called them. The gameplay guides point to the retained mechanics and formulas.
+
 ## Mechanics
 
 The [mechanics guide](docs/mechanics.md) covers how the cannon fires, how hits deal damage and earn cash, and how to unlock targets and research upgrades. It also explains what counts as a timed clear.
