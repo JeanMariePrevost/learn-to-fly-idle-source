@@ -8,15 +8,15 @@ This is for reading, not building. The art, sound and Flash project file aren't 
 
 1. `src/`: the game's classes.
 2. `scripts/`: the code that sat on timeline frames inside the Flash project file, one file per timeline. Each block starts with a comment saying which layer and frame it's on.
-3. `framework/lbg/`: Light Bringer Games' shared Flash library, which the game uses for logging, saving, audio and more.
+3. `framework/lbg/`: Light Bringer Games' shared Flash library, which the game uses for logging, audio and more.
+
+See the [mechanics guide](docs/mechanics.md) for formulas, targets and run timing.
 
 Not included, since they aren't ours to relicense: `PixelPerfectCollisionDetection` from freeactionscript.com, and Adobe's Flash components.
 
 Third-party framework code keeps its original terms: `CollisionDetection.as` (Grant Skinner, MIT), `MouseWheelTrap.as` (spikything.com, MIT), `Easing.as` (Robert Penner, BSD) and `BigInt.as` (Leemon Baird, ActionScript port by Ian Peters, public domain).
 
-## Saves and run rules
-
-Existing local Flash saves still load from the original storage location. File import accepts `.sav` exports from this release.
+## Run rules
 
 Research caps at level 10. A later qualifying kill can overwrite a stored clear time under 7,000 seconds with a slower time.
 
