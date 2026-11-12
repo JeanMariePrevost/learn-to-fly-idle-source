@@ -4,7 +4,7 @@
 
 ActionScript 3 source for Learn to Fly Idle, version 1.1.103, from the Flash project last saved in 2018. Most of the game code is in separate ActionScript classes. Frame scripts on the main timeline and in library movie clips handle startup and parts of the interface and animation.
 
-This is an edited snapshot of the Flash source. We removed platform integrations and cleaned up the scripts that called them. The gameplay guides point to the retained mechanics and formulas.
+I used scripts, AI agents and some manual edits to remove platform integrations, clean up the scripts that called them, and put together the docs. The guides link to the code so you can check the details yourself.
 
 ## Mechanics
 
@@ -20,20 +20,20 @@ Research caps at level 10. A later qualifying kill can overwrite a stored clear 
 
 ## What's here
 
-This release is for reading the source. The original art files, sound and Flash project file aren't included.
+This release is for reading the source. I left out the original art files, sound and Flash project file.
 
 1. `src/`: the game's classes.
 2. `scripts/`: the code that sat on timeline frames inside the Flash project file, one file per timeline. Each block starts with a comment saying which layer and frame it's on.
 3. `framework/lbg/`: Light Bringer Games' shared Flash library, which the game uses for logging, audio and more.
 
-Not included, since they aren't ours to relicense: `PixelPerfectCollisionDetection` from freeactionscript.com, and Adobe's Flash components.
+I also left out `PixelPerfectCollisionDetection` from freeactionscript.com and Adobe's Flash components.
 
 Third-party framework code keeps its original terms: `CollisionDetection.as` (Grant Skinner, MIT), `MouseWheelTrap.as` (spikything.com, MIT), `Easing.as` (Robert Penner, BSD) and `BigInt.as` (Leemon Baird, ActionScript port by Ian Peters, public domain).
 
 ## License
 
-The [LBG-NCNC License v1.0](LICENSE.md) covers Light Bringer Games' source code in this repository.
+This project is licensed under the [LBG-NCNC License v1.0](LICENSE.md).
 
-You can read, use, change, and share the code for noncommercial purposes, including by forking it on GitHub. When sharing, credit Light Bringer Games and keep the license and copyright notices. Get written permission before distributing or hosting a product based on the code that competes with or undercuts a Light Bringer Games product or service, even if it's free. The full license governs.
+**Short version:** Do whatever, but give credit, don’t make money from it, don’t compete with me, and don’t hurt my business. (See the license for the actual terms.)
 
 Light Bringer Games reserves its rights in the game's name, art, and sound. Third-party files have their own licenses.
